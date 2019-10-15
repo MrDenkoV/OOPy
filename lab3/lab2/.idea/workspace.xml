@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="" />
+    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -16,7 +38,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1RvbAbHmwe5WPUitUqC8F48puXl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -28,8 +57,11 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -50,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalIntegrationTest.testInterpretation">
+  <component name="RunManager" selected="JUnit.All tests">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -235,7 +267,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570550374791</updated>
+      <workItem from="1571177848034" duration="194000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

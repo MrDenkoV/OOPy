@@ -24,7 +24,7 @@ public class Animal {
                 this.direction = direction.next();
                 break;
         }
-        if(this.position.x<0 || this.position.x>4 || this.position.y<0 || this.position.y>4)
+        if(!(this.position.follows(new Vector2d(0,0)) && this.position.precedes(new Vector2d(4,4))))
             this.position = this.position.subtract(tmp);
     }
 
