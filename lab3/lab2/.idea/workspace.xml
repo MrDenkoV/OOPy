@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab4/lab2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -267,8 +250,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570550374791</updated>
-      <workItem from="1571177848034" duration="194000" />
+      <workItem from="1571177848034" duration="301000" />
+      <workItem from="1571768672617" duration="53000" />
     </task>
+    <task id="LOCAL-00001" summary="lab3 impr">
+      <created>1571178119585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571178119585</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,10 +271,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab3 impr" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3 impr" />
   </component>
 </project>
