@@ -14,7 +14,7 @@ class RectangularMap implements IWorldMap {
     }
 
     public String toString(){
-       return new MapVisualizer(this).draw(new Vector2d(0,0), new Vector2d(width, height));
+        return new MapVisualizer(this).draw(new Vector2d(0,0), new Vector2d(width, height));
     }
 
     @Override
@@ -32,15 +32,22 @@ class RectangularMap implements IWorldMap {
     public void run(MoveDirection[] directions){
         int k=0;
         for(MoveDirection direction: directions){
+            //System.out.println("Pre");
+            //System.out.println(this.toString());
+            System.out.println(direction+"\n");
+
             animals.get(k).move(direction);
             k=(k+1)%animals.size();
-            //System.out.println(this.toString());
+
+            //System.out.println("Post");
+            //System.out.println(this.toString()+"\n\n\n");
+            System.out.println(this.toString());
         }
     }
 
     public boolean isOccupied(Vector2d position){
         for(Animal animal: this.animals){
-            if(animal.getPosition()==position)
+            if(position.equals(animal.getPosition()))
                 return true;
         }
         return false;
@@ -48,7 +55,7 @@ class RectangularMap implements IWorldMap {
 
     public Object objectAt(Vector2d position){
         for(Animal animal: this.animals){
-            if(animal.getPosition()==position)
+            if(position.equals(animal.getPosition()))
                 return animal;
         }
         return null;
