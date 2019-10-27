@@ -6,9 +6,9 @@ import org.junit.Test;
 import java.util.concurrent.ForkJoinPool;
 import java.util.logging.Level;
 
-/*public class AnimalIntegrationTest {
+public class AnimalIntegrationTest {
 
-    public void run(Animal animal, MoveDirection[] directions){
+    /*public void run(Animal animal, MoveDirection[] directions){
         for(MoveDirection direction: directions){
             animal.move(direction);
         }
@@ -75,5 +75,5 @@ import java.util.logging.Level;
         MoveDirection[] dir = OptionsParser.parse(args);
         run(animal, dir);
         Assert.assertEquals(animal.toString(), "Pos:(3,4) Dir:Zachód");
-    }
-}*/
+    }*/
+}
