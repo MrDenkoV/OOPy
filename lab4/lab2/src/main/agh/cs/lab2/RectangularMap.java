@@ -34,7 +34,7 @@ class RectangularMap implements IWorldMap {
         for(MoveDirection direction: directions){
             //System.out.println("Pre");
             //System.out.println(this.toString());
-            System.out.println(direction+"\n");
+            //System.out.println(direction+"\n");
 
             animals.get(k).move(direction);
             k=(k+1)%animals.size();
@@ -54,7 +54,7 @@ class RectangularMap implements IWorldMap {
     }
 
     public Object objectAt(Vector2d position){
-        for(Animal animal: this.animals){
+        for(Animal animal: animals){
             if(position.equals(animal.getPosition()))
                 return animal;
         }
