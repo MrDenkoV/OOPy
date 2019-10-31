@@ -15,12 +15,12 @@ public class AnimalTest {
     public  void testToString(){
         IWorldMap map = new RectangularMap(3, 3);
         Animal zwierz = new Animal(map);
-        Assert.assertEquals(zwierz.toString(), "N");
+        Assert.assertEquals(zwierz.toString(), "^");
         zwierz.move(MoveDirection.LEFT);
-        Assert.assertEquals(zwierz.toString(), "W");
+        Assert.assertEquals(zwierz.toString(), "<");
         zwierz.move(MoveDirection.LEFT);
-        Assert.assertEquals(zwierz.toString(), "S");
+        Assert.assertEquals(zwierz.toString(), "v");
         zwierz.move(MoveDirection.LEFT);
-        Assert.assertEquals(zwierz.toString(), "E");
+        Assert.assertEquals(zwierz.toString(), ">");
     }
 }
