@@ -1,6 +1,6 @@
 package agh.cs.lab2;
 
-public class Stone {
+public class Stone implements IMapElement{
     Vector2d position;
 
     public Stone(Vector2d position){

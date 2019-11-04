@@ -1,6 +1,6 @@
 package agh.cs.lab2;
 
-public class Animal {
+public class Animal implements IMapElement {
     private MapDirection direction = MapDirection.NORTH;
     private Vector2d position = new Vector2d(2,2);
 
