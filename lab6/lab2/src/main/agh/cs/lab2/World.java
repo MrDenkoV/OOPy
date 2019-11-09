@@ -51,5 +51,10 @@ public class World {
         catch (IllegalArgumentException ex){
             System.out.println(ex);
         }
+
+//      LinkedList<Stone> stones = new LinkedList<Stone>();
+//      IWorldMap map = new UnboundedMap(stones);
+//      System.out.println(map);
+
     }
 }

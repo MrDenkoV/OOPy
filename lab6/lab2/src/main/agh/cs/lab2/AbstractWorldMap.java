@@ -14,6 +14,8 @@ public abstract class AbstractWorldMap implements IWorldMap{
 
     @Override
     public String toString(){
+        if(!lowerLeft.precedes(upperRight))
+            return new MapVisualizer(this).draw(new Vector2d(0,0), new Vector2d(1,1));
         return new MapVisualizer(this).draw(lowerLeft, upperRight);
     }
 
