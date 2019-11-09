@@ -1,65 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="lab6 init">
-      <change afterPath="$PROJECT_DIR$/../../lab5/lab2/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab5/lab2/out/production/lab2/agh/cs/lab2/IMapElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/_gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IMapElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IWorldMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapVisualizer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/RectangularMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Stone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/UnboundedMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/RectangularMapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/UnboundedMapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/AbstractWorldMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/IMapElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/IWorldMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MoveDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/OptionsParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/RectangularMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Stone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/UnboundedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/AnimalIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/MapDirectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/RectangularMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/UnboundedMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/Vector2dTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/lab2/out/production/lab2/agh/cs/lab2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab2/out/production/lab2/agh/cs/lab2/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab5/lab2/out/production/lab2/agh/cs/lab2/Stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/lab2/out/production/lab2/agh/cs/lab2/Stone.class" afterDir="false" />
+    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="lab6 fin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/agh/cs/lab2/AnimalIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/AnimalIntegrationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -336,7 +280,7 @@
       <workItem from="1572294266218" duration="5401000" />
       <workItem from="1572391262748" duration="7478000" />
       <workItem from="1572875505346" duration="700000" />
-      <workItem from="1573311319876" duration="2768000" />
+      <workItem from="1573311319876" duration="3013000" />
     </task>
     <task id="LOCAL-00001" summary="lab3 impr">
       <created>1571774417767</created>
@@ -387,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572560557779</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lab6 fin">
+      <created>1573314369220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573314369220</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,6 +367,7 @@
     <MESSAGE value="lab5 abstr" />
     <MESSAGE value="lab5 abstr,intr,tst" />
     <MESSAGE value="lab6 init" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab6 init" />
+    <MESSAGE value="lab6 fin" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab6 fin" />
   </component>
 </project>
