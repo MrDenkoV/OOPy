@@ -5,6 +5,10 @@ import java.util.Map;
 import java.util.Vector;
 
 public class UnboundedMap extends AbstractWorldMap{
+
+    protected Vector2d lowerLeft;
+    protected Vector2d upperRight;
+
     private int inf=Integer.MAX_VALUE;
 
     public UnboundedMap(LinkedList<Stone> stones){
@@ -19,4 +23,21 @@ public class UnboundedMap extends AbstractWorldMap{
             lowerLeft = lowerLeft.lowerLeft(stone.getPosition());
         }
     }
+
+
+    public Vector2d getLowerLeft(){
+        for(Animal animal: animals){
+            lowerLeft = lowerLeft.lowerLeft(animal.getPosition());
+        }
+        return lowerLeft;
+    }
+
+    public Vector2d getUpperRight(){
+        for(Animal animal: animals){
+            upperRight = upperRight.upperRight(animal.getPosition());
+        }
+        return upperRight;
+    }
+
+
 }

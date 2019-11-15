@@ -6,14 +6,19 @@ import java.util.Map;
 
 public abstract class AbstractWorldMap implements IWorldMap{
 
-    protected Vector2d lowerLeft;
-    protected Vector2d upperRight;
+//    protected Vector2d lowerLeft;
+//    protected Vector2d upperRight;
 
     protected LinkedList<Animal> animals = new LinkedList<Animal>();
     protected Map<Vector2d, IMapElement> elements = new HashMap<>();
 
+    abstract Vector2d getLowerLeft();
+    abstract Vector2d getUpperRight();
+
     @Override
     public String toString(){
+        Vector2d lowerLeft = getLowerLeft();
+        Vector2d upperRight = getUpperRight();
         if(!lowerLeft.precedes(upperRight))
             return new MapVisualizer(this).draw(new Vector2d(0,0), new Vector2d(1,1));
         return new MapVisualizer(this).draw(lowerLeft, upperRight);
@@ -43,8 +48,8 @@ public abstract class AbstractWorldMap implements IWorldMap{
             ob.move(direction);
             elements.put(ob.getPosition(), ob);
             k=(k+1)%animals.size();
-            lowerLeft = lowerLeft.lowerLeft(ob.getPosition());
-            upperRight = upperRight.upperRight(ob.getPosition());
+            //lowerLeft = lowerLeft.lowerLeft(ob.getPosition());
+            //upperRight = upperRight.upperRight(ob.getPosition());
 
             System.out.println(this.toString());
         }

@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="lab6 fin">
+    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IMapElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IMapElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IWorldMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IWorldMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapVisualizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/RectangularMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/RectangularMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Stone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/UnboundedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/UnboundedMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/RectangularMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/RectangularMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/UnboundedMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/UnboundedMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/AbstractWorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/AbstractWorldMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/RectangularMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/RectangularMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/UnboundedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/UnboundedMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.World">
+  <component name="RunManager" selected="JUnit.All tests">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -282,7 +305,8 @@
       <workItem from="1572391262748" duration="7478000" />
       <workItem from="1572875505346" duration="700000" />
       <workItem from="1573311319876" duration="3850000" />
-      <workItem from="1573339173226" duration="1075000" />
+      <workItem from="1573339173226" duration="1107000" />
+      <workItem from="1573857423959" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="lab3 impr">
       <created>1571774417767</created>
@@ -347,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573314596470</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lab6 fin">
+      <created>1573340481737</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573340481737</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
