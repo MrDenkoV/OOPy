@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="" />
+    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/lab2/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/lab2/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/lab2/out/production/lab2/agh/cs/lab2/UnboundedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/lab2/out/production/lab2/agh/cs/lab2/UnboundedMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/lab2/src/main/agh/cs/lab2/AbstractWorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/lab2/src/main/agh/cs/lab2/AbstractWorldMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/lab2/src/main/agh/cs/lab2/UnboundedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/lab2/src/main/agh/cs/lab2/UnboundedMap.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +69,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab7/lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -86,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All tests">
+  <component name="RunManager" selected="Application.World">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -280,6 +287,8 @@
       <workItem from="1573311319876" duration="3850000" />
       <workItem from="1573339173226" duration="1107000" />
       <workItem from="1573857423959" duration="116000" />
+      <workItem from="1574184613800" duration="280000" />
+      <workItem from="1574185964504" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="lab3 impr">
       <created>1571774417767</created>

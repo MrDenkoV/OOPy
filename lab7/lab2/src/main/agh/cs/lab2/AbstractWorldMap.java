@@ -45,17 +45,9 @@ public abstract class AbstractWorldMap implements IWorldMap, IPositionChangeObse
         int k=0;
         for(MoveDirection direction: directions){
             Animal ob = animals.get(k);
-            elements.remove(ob.getPosition());
-            //animals.get(k).move(direction);
-            Vector2d first = ob.getPosition();
             ob.move(direction);
-            Vector2d second = ob.getPosition();
-            elements.put(ob.getPosition(), ob);
             k=(k+1)%animals.size();
-            //lowerLeft = lowerLeft.lowerLeft(ob.getPosition());
-            //upperRight = upperRight.upperRight(ob.getPosition());
 
-            ob.positionChange(first,second);
             System.out.println(this.toString());
         }
     }
@@ -72,6 +64,9 @@ public abstract class AbstractWorldMap implements IWorldMap, IPositionChangeObse
 
     @Override
     public void positionChanged(Vector2d oldPosition, Vector2d newPosition) {
+
+        System.out.println(oldPosition);
+        System.out.println(newPosition);
         IMapElement ob = elements.get(oldPosition);
         elements.remove(oldPosition);
         elements.put(newPosition, ob);

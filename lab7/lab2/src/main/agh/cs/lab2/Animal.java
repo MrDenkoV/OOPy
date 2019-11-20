@@ -46,8 +46,10 @@ public class Animal implements IMapElement {
                 tmp = tmp.opposite();
             case FORWARD:
                 Vector2d tmp2=this.position.add(tmp);
-                if(this.map.canMoveTo(tmp2))
+                if(this.map.canMoveTo(tmp2)) {
                     this.position = tmp2;
+                    positionChange(tmp2.subtract(tmp), this.position);
+                }
                 return;
             case LEFT:
                 this.direction = direction.previous();
@@ -69,6 +71,8 @@ public class Animal implements IMapElement {
     }
 
     void positionChange(Vector2d oldPosition, Vector2d newPosition){
+
+        System.out.println(observers.size());
         for(IPositionChangeObserver observer: observers){
             observer.positionChanged(oldPosition, newPosition);
         }

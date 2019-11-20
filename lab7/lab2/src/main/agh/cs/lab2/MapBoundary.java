@@ -18,6 +18,8 @@ public class MapBoundary implements IPositionChangeObserver{
     }
 
     public void add(IMapElement el){
+        if(el instanceof Animal)
+            ((Animal)el).addObserver(this);
         axix.add(el.getPosition());
         axiy.add(el.getPosition());
     }

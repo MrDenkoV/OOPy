@@ -36,7 +36,7 @@ public class World {
             LinkedList<Stone> stones = new LinkedList<Stone>();
             stones.add(new Stone(new Vector2d(-4, -4)));
             stones.add(new Stone(new Vector2d(7, 7)));
-            stones.add(new Stone(new Vector2d(3, 6)));
+            //stones.add(new Stone(new Vector2d(3, 6))); f b r l f f r r f f f f l f f f f f f f f f f f f f f f f
             stones.add(new Stone(new Vector2d(2, 0)));
             MoveDirection[] directions = new OptionsParser().parse(args);
 
@@ -55,6 +55,7 @@ public class World {
 //      LinkedList<Stone> stones = new LinkedList<Stone>();
 //      IWorldMap map = new UnboundedMap(stones);
 //      System.out.println(map);
+//        f b r l f f r r f f f f f f f f
 
     }
 }

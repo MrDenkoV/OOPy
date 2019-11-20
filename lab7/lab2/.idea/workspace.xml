@@ -1,67 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="lab7 start">
-      <change afterPath="$PROJECT_DIR$/.idea/_gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IMapElement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IPositionChangeObserver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/IWorldMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapDirection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MapVisualizer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/MoveDirection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/OptionsParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/RectangularMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Stone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/UnboundedMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/Vector2d.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/World.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalIntegrationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/AnimalTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/MapDirectionTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/RectangularMapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/UnboundedMapTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/lab2/agh/cs/lab2/Vector2dTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/AbstractWorldMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/IMapElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/IPositionChangeObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/IWorldMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapBoundary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapVisualizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MoveDirection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/OptionsParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/RectangularMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Stone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/UnboundedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2dCompareX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Vector2dCompareY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/AnimalIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/MapDirectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/RectangularMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/UnboundedMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/agh/cs/lab2/Vector2dTest.java" afterDir="false" />
+    <list default="true" id="5f9459fa-79d8-4417-96c8-84d51859c0e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../lab6/lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab6/lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/AbstractWorldMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/UnboundedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab2/agh/cs/lab2/UnboundedMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/AbstractWorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/AbstractWorldMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapBoundary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/MapBoundary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/UnboundedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/UnboundedMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/agh/cs/lab2/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/agh/cs/lab2/World.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +72,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab6/lab2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -164,7 +113,7 @@
     <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="agh.cs.lab2.World" />
       <module name="lab2" />
-      <option name="PROGRAM_PARAMETERS" value="f b r l f f r r f f f f f f f f" />
+      <option name="PROGRAM_PARAMETERS" value="f b r l f f r r f f f f l f f f f f f f f f f f f f f f f" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="agh.cs.lab2.*" />
@@ -317,8 +266,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.World" />
-        <item itemvalue="JUnit.RectangularMapTest.testRun" />
         <item itemvalue="JUnit.UnboundedMapTest.testObjectAt" />
+        <item itemvalue="JUnit.RectangularMapTest.testRun" />
         <item itemvalue="JUnit.UnboundedMapTest.testIsOccupied" />
         <item itemvalue="JUnit.UnboundedMapTest" />
       </list>
@@ -343,7 +292,8 @@
       <workItem from="1572875505346" duration="700000" />
       <workItem from="1573311319876" duration="3850000" />
       <workItem from="1573339173226" duration="1107000" />
-      <workItem from="1573857542714" duration="4758000" />
+      <workItem from="1573857542714" duration="4989000" />
+      <workItem from="1574183064755" duration="7376000" />
     </task>
     <task id="LOCAL-00001" summary="lab3 impr">
       <created>1571774417767</created>
@@ -415,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573340481737</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lab7 start">
+      <created>1573862349417</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573862349417</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
